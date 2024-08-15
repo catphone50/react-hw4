@@ -1,0 +1,10 @@
+.cityContainer {
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+  background-color: #f0f8f0;
+  color: #2e8b57;
+}

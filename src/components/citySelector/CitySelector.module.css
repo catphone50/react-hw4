@@ -1,0 +1,29 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f8f0;
+}
+
+.label {
+  font-size: 18px;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #a2d9a8;
+  border-radius: 8px;
+  color: #2e8b57;
+  background-color: #e8f5e9;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select:focus {
+  outline: none;
+  border-color: #364e37;
+  box-shadow: 0 0 0 2px rgba(102, 187, 106, 0.5);
+}
