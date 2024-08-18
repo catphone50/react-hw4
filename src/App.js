@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import CitySelector from "./components/citySelector/CitySelector";
 import CityCard from "./components/cityCard/CityCard";
+import MathQuiz from "./components/mathQuiz/mathQuiz/MathQuiz.jsx";
 
 function App() {
   const citiesData = [
@@ -101,6 +102,7 @@ function App() {
         onCityChange={handleCityChange}
       />
       <CityCard city={citiesData.find((city) => city.name === selectedCity)} />
+      <MathQuiz />
     </div>
   );
 }

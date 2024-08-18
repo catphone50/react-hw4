@@ -1,0 +1,56 @@
+.formContainer {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f8f0;
+  border: 2px solid #164716;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #a2d9a8;
+  border-radius: 8px;
+  color: #2e8b57;
+  background-color: #e8f5e9;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select:focus {
+  outline: none;
+  border-color: #364e37;
+  box-shadow: 0 0 0 2px rgba(102, 187, 106, 0.5);
+}
+
+.formContainer h2 {
+  color: #2e8b57;
+  margin: 5px 0;
+}
+
+.exercise {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.massage {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+.massage.success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.massage.error {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
